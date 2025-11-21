@@ -1,0 +1,38 @@
+Q1:fork() creates a new process (child) by duplicating the existing process (parent).
+In the parent process, fork() returns the PID (Process ID) of the child.
+
+In the child process, fork() returns 0.
+
+If fork() fails, it returns -1.
+
+the second exercise
+sleep 300 & starts a process in the background
+jobs lists the running processes in the background
+ps aux | grep sleep finds the processes with sleep
+kill PID stop a process
+kill -STOP PID pause a process
+kill -CONT PID resume the process
+
+The 3rd exercise
+the linker two files  file1.c file2.c 
+file1.c have a function and file2.c declare that function in the main
+the program returns 0 after it ends
+the compile the files from .c to .o
+finlly link them and make a output_program
+
+the 4th exercise
+when we run the output_program the loader copy it to the ram and excute the program at the main address
+
+Q2: the job of the Linker is :
+The linker is a crucial tool in the software development process that combines various compiled object files into a single executable program. Its main job is to ensure that all the separate pieces of code and data in a program are correctly connected and able to work together
+
+Q3: the job of loader:
+Load the executable file into memory.
+
+Allocate memory for the code, data, stack, and heap.
+
+Relocate addresses to adjust relative references to actual memory locations.
+
+Link dynamic libraries and resolve references to functions/variables in them.
+
+Finally the loader transfers control to the program’s entry point (typically the main() function), and the program begins execution.
