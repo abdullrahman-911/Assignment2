@@ -21,4 +21,8 @@ This repository contains all the code and documentation for the Operating System
 2. Compile and link all C files using the Makefile:
 
    ```bash
-   make all
+   make example
+   make fork
+   make linker
+   make loader
+   make clean
